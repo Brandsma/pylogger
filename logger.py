@@ -77,8 +77,10 @@ def setup_logger(name, level=logging.INFO):
 
     return log
 
+
 # Export logger
 log = setup_logger("Main")
+
 
 def change_logger_level(level):
     """ Update the logger level """
